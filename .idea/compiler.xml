@@ -11,6 +11,7 @@
         <module name="spring-cloud" />
         <module name="user2" />
         <module name="eureka-server" />
+        <module name="server-config" />
         <module name="users" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-server" options="-parameters" />
       <module name="openfeign" options="-parameters" />
+      <module name="server-config" options="-parameters" />
       <module name="user2" options="-parameters" />
       <module name="users" options="-parameters" />
     </option>
